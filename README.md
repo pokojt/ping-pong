@@ -14,7 +14,7 @@ Ping Pong is an application for testing or demonstrating basic proficiency in Ja
 
 Install ping-pong locally by cloning this repository:
 
-https://pokojt.github.io/ping-pong
+https://github.com/pokojt/ping-pong.git
 
 Or, you can run the application [here](http://pokojt.github.io/ping-pong).
 

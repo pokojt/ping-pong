@@ -1,5 +1,9 @@
 var pingPong = function (number) {
-var range = [];
+  var number = parseInt(number[0])
+  var rangeCount = [];
+  for (i = 0; i <= number.length; i++) {
+    list.push(i);
+}
 
 
   return
@@ -13,15 +17,19 @@ var range = [];
   else if (number % 15 === 0) {
     return "pingpong";
   }
+  else {
+    return "Please enter integers only!"
+  }
 }
 
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
-    var year = $("input#number").val();
-    var count = pingPong(number);
+    var number = $("input#number").val();
+    var result = pingPong(number);
 
+    $(".number").text(number);
+    $("#result").show();
 
-    $("#count").show();
     event.preventDefault();
   });
 });
