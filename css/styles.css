@@ -5,8 +5,9 @@
   background-size: cover;
   color: white;
   height: 400px;
-  text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+  text-shadow: -1px 0 #35586C, 0 1px #35586C, 3px 0 #35586C, 0 -1px #35586C;
 }
+
 
 .sidebar {
   background-color: #35586C;
@@ -38,4 +39,16 @@ a:hover {
 
 .container {
   margin-bottom: 50px;
+}
+
+.btn:hover {
+  background-color: #35586C;
+  color: white;
+}
+
+.modal-body img {
+  float: right;
+  height: 100px;
+  width: auto;
+  border-radius: 50%
 }
