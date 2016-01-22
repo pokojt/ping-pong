@@ -7,8 +7,6 @@ var pingPong = function(inputNumber) {
   }
   else {
 
-    // var rangeCount = [];
-
     for (var i = 1; i <= inputNumber; i++) {
 
       if (i % 15 === 0) {
