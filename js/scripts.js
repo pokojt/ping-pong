@@ -32,7 +32,7 @@ var pingPong = function(inputNumber) {
 
 $(document).ready(function() {
   $("form#ping-pong").submit(function(event) {
-
+    $("ul").empty();
     var inputNumber = $("input#inputNumber").val();
     var result = pingPong(inputNumber);
 
@@ -42,9 +42,6 @@ $(document).ready(function() {
     };
 
     $("#modal").modal('show');
-    $('#modal').on('hidden.bs.modal', function () {
-      location.reload();
-    });
 
     event.preventDefault();
   });
