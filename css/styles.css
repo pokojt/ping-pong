@@ -1,5 +1,9 @@
 
 
-.jumbrotron {
-  background-image: url("../img/pingpong.jpg");
+.jumbotron {
+  background-image: url("../img/ping-pong.jpg");
+  background-size: cover;
+  color: white;
+  height: 400px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
