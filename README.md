@@ -8,7 +8,7 @@ Ping Pong is an application for testing or demonstrating basic proficiency in Ja
 
 - Numbers divisible by 3 are replaced with the word "ping"
 - Numbers divisible by 5 are replaced with the word "pong"
-- Numbers divisible by 15 are replaced with the word "pingpong"
+- Numbers divisible by 15 are replaced with the word "ping pong"
 
 ##Installation
 

@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.0.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     <title>Ping Pong</title>
   </head>
   <body>
@@ -12,16 +13,16 @@
       <div class="container">
         <h1>Ping-Pong</h1>
         <p class="lead"><em>A Javascript application to test ....
-        </p>
+        </em></p>
       </div>
     </div>
     <div class="container">
       <h2>Let's play!</h2>
-      <p>Ping Pong will count up to your number from 1 with the following exceptions:</p>
+      <p class="lead">Ping Pong will count up to your number from 1 with the following exceptions:</p>
       <ul>
         <li>Numbers divisable by 3 will become "ping"</li>
         <li>Numbers divisable by 5 will become "pong"</li>
-        <li>Numbers divisable by 15 will become "pingpong"</li>
+        <li>Numbers divisable by 15 will become "ping pong"</li>
       <form id="ping-pong">
         <div class="form-group">
           <label for="inputNumber">Enter your number here:</label>
@@ -30,12 +31,32 @@
 
         <button type="submit" class="btn" btn-lg btn-primary>Ping Pong!</button>
       </form>
+    </div>
 
+    <div id="modal" class="modal fade">
+       <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+               <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Ping Pong!</h4>
+           </div>
+           <div class="modal-body">
+               <p>
+                 <ul id="result"></ul>
+               </p>
+           </div>
+           <div class="modal-footer">
+           </div>
+         </div>
+       </div>
+     </div>
+
+
+<!--
       <div class="result">
         <ul id="result"></ul>
 
-      </div>
-    </div>
+      </div> -->
 
   </body>
 </html>
