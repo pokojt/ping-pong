@@ -1,5 +1,3 @@
-
-
 .jumbotron {
   background-image: url("../img/ping-pong.jpg");
   background-size: cover;
@@ -7,7 +5,6 @@
   height: 400px;
   text-shadow: -1px 0 #35586C, 0 1px #35586C, 3px 0 #35586C, 0 -1px #35586C;
 }
-
 
 .sidebar {
   background-color: #35586C;

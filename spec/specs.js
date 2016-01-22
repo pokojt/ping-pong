@@ -1,4 +1,5 @@
 describe ('pingPong', function(){
+
   it ("returns a range of numbers from 1 to the number chosen", function (){
     expect(pingPong(2)).to.eql([1, 2]);
   });
@@ -26,5 +27,4 @@ describe ('pingPong', function(){
   it ("will return false if either input is 0 or negative", function() {
   expect(pingPong(-1)).to.eql(["Please only enter a positive number!"]);
   });
-
 });

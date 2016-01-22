@@ -6,7 +6,6 @@ var pingPong = function(inputNumber) {
     rangeCount.push("Please only enter a positive number!");
   }
   else {
-
     for (var i = 1; i <= inputNumber; i++) {
 
       if (i % 15 === 0) {
@@ -38,7 +37,6 @@ $(document).ready(function() {
 
     $("#result").append("<li>" + result[i] + "</li>");
     };
-
     $("#modal").modal('show');
 
     event.preventDefault();
