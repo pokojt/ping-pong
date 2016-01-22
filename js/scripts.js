@@ -4,7 +4,7 @@ var pingPong = function(inputNumber) {
 
   for (var i = 1; i <= inputNumber; i++) {
 
-    if ((i % 5 === 0) && (i % 3 === 0)){
+    if (i % 15 === 0) {
       rangeCount.push("pingpong");
     }
     else if (i % 3 === 0) {
@@ -21,16 +21,16 @@ var pingPong = function(inputNumber) {
 };
 
 
+$(document).ready(function() {
+  $("form#ping-pong").submit(function(event) {
 
+    var inputNumber = $("input#inputNumber").val();
+    var result = pingPong(inputNumber);
 
-// $(document).ready(function() {
-//   $("form#ping-pong").submit(function(event) {
-//     var number = $("input#number").val();
-//     var result = pingPong(number);
-//
-//     $(".number").text(number);
-//     $("#result").show();
-//
-//     event.preventDefault();
-//   });
-// });
+    for (i = 0; i < result.length; i ++) {
+      $("#result").append("<li>" + result[i] + "</li>");
+    };
+
+    event.preventDefault();
+  });
+});
