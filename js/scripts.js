@@ -3,11 +3,11 @@ var pingPong = function(inputNumber) {
   var rangeCount = [];
 
   if ((isNaN(inputNumber)) || (inputNumber === "") || (inputNumber <= 0)) {
-    return alert("Please only enter a positive number!");
+    rangeCount.push("Please only enter a positive number!");
   }
   else {
 
-    var rangeCount = [];
+    // var rangeCount = [];
 
     for (var i = 1; i <= inputNumber; i++) {
 
@@ -26,6 +26,7 @@ var pingPong = function(inputNumber) {
     };
     return rangeCount;
   };
+  return rangeCount;
 };
 
 
