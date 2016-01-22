@@ -5,5 +5,37 @@
   background-size: cover;
   color: white;
   height: 400px;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: -1px 0 black, 0 1px black, 3px 0 black, 0 -1px black;
+}
+
+.sidebar {
+  background-color: #35586C;
+  opacity: 0.6;
+  border-radius: 13%;
+  color: black;
+  width: 30%;
+  float: right;
+  padding: 15px;
+  margin-right: none;
+  margin-left: 30px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.sidebar .lead {
+  color: white;
+  text-align: left;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.container {
+  margin-bottom: 50px;
 }
